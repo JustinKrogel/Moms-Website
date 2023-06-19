@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import outside from './pictures/exterior.JPG';
+import outside from './pictures/exterior.jpg';
 import {FaPhoneAlt} from "react-icons/fa"
 const Contact = () => {
 
