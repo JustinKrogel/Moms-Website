@@ -5,33 +5,6 @@ import RI from './pictures/Release of Information.pdf';
 
 
 const Forms = () => {
-	var form;
-	function stuff(){
-		fetch(form).then(response => {
-			response.blob().then(blob => {
-				// Creating new object of PDF file
-				const fileURL = window.URL.createObjectURL(blob);
-				// Setting various property values
-				let alink = document.createElement('a');
-				alink.href = fileURL;
-				alink.download = form;
-				alink.click();
-			})
-		})
-	}
-	const form1 = () => {
-        form = PR
-		stuff()
-    }
-	const form2 = () => {
-        form = PS
-		stuff()
-    }
-	const form3 = () => {
-        form = RI
-		stuff()
-    }
-
 return (
 	<div>
 		<div style = {{backgroundColor: '#e8ded1', marginTop: -25, height: 'calc(14vw)'}}>
@@ -44,17 +17,27 @@ return (
 			In preparation for your first appointment, please print and complete a copy of the Patient Services Agreement as well as the Patient Information page. Copies are also available upon arrival. Please allow 15 minutes to complete this needed paperwork prior to your session time. 
 		</div>
 	<div style = {{flexOrientation: 'horizontal', display: 'flex', height: 50}}>
-		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1,cursor:'pointer', marginLeft: 100, borderRadius:30}} onClick={form1}>
-			Patient Registration Form
-	    </button>
-		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', marginLeft: 50, marginRight: 50, borderRadius:30}} onClick={form2}>
+
+
+		<a href={PR} download="Patinet Registration" target='_blank'>
+			<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1,cursor:'pointer', marginLeft: 180, borderRadius:30, height: 50}}>
+				Patient Registration Form
+	    	</button>
+		</a>
+		
+		<a href={PS} download="Patient Services Agreement" target='_blank'>
+		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', marginLeft: 50, marginRight: 50, borderRadius:30, height: 50}}>
 			Patient Services Agreement
     	</button>
-		
-		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', marginRight: 100, borderRadius:30}} onClick={form3}>
+		</a>
+		<a href={RI} download="Release of Information" target='_blank'>
+		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', borderRadius:30, height: 50}} >
 			Release of Information
     	</button>
+		</a>
 	</div>
+
+	
 
 	
 	</div>
