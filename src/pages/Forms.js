@@ -30,7 +30,7 @@ return (
 			Patient Services Agreement
     	</button>
 		</a>
-		<a href={RI}>
+		<a href={RI} download>
 		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', borderRadius:30, height: 50}} >
 			Release of Information
     	</button>
@@ -38,8 +38,7 @@ return (
 		
 	</div>
 
-	<a href="https://www.drkrogelemdr.com/static/media/Release%20of%20Information.0e36603fdeba3baf8d79.pdf" download>
-				</a>
+	
 
 	
 	</div>
