@@ -1,5 +1,5 @@
 import React from 'react';
-import Room from './pictures/Waiting room.JPG';
+import Room from './pictures/Waiting room.jpg';
 const Services = () => {
 return (
 	<div>
