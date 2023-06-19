@@ -35,7 +35,7 @@ return (
 			Release of Information
     	</button>
 		</a>
-		<a href="./pictures/Release of Information.pdf" download>link_text</a>
+		<a href="./pictures/Office.jpg" download>link_text</a>
 	</div>
 
 	
