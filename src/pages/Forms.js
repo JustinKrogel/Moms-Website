@@ -30,12 +30,11 @@ return (
 			Patient Services Agreement
     	</button>
 		</a>
-		<a href={RI} download="ReleaseofInformation.pdf" target='_blank'>
+		<a href={RI}>
 		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', borderRadius:30, height: 50}} >
 			Release of Information
     	</button>
-		</a>
-		<a href="./pictures/Office.jpg" download>link_text</a>
+		
 	</div>
 
 	
