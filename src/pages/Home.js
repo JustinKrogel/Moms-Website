@@ -43,10 +43,10 @@ return (
 			<img style = {{flex:1, marginLeft: 50, width: '35%', borderRadius: 30}} src = {portrait} alt="React Image" />
 			<div style = {{flex: 3}}>
 				<h1>
-					Doc Krogel
+					Dr. Krogel
 				</h1>
 				<p>
-					meow meow
+					
 				</p>
 			</div>
 		</div>
