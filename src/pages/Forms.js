@@ -38,7 +38,7 @@ return (
 		
 	</div>
 
-	
+	<a href="https://www.drkrogelemdr.com/static/media/Release%20of%20Information.0e36603fdeba3baf8d79.pdf" download>
 
 	
 	</div>
