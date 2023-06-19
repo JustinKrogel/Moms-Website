@@ -19,18 +19,18 @@ return (
 	<div style = {{flexOrientation: 'horizontal', display: 'flex', height: 50}}>
 
 
-		<a href={PR} download="Patinet Registration" target='_blank'>
+		<a href={PR} download="PatinetRegistration.pdf" target='_blank'>
 			<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1,cursor:'pointer', marginLeft: 180, borderRadius:30, height: 50}}>
 				Patient Registration Form
 	    	</button>
 		</a>
 		
-		<a href={PS} download="Patient Services Agreement" target='_blank'>
+		<a href={PS} download="PatientServicesAgreement.pdf" target='_blank'>
 		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', marginLeft: 50, marginRight: 50, borderRadius:30, height: 50}}>
 			Patient Services Agreement
     	</button>
 		</a>
-		<a href={RI} download="Release of Information" target='_blank'>
+		<a href={RI} download="ReleaseofInformation.pdf" target='_blank'>
 		<button style = {{backgroundColor: '#cc9767', fontSize: 25, flex: 1, cursor:'pointer', borderRadius:30, height: 50}} >
 			Release of Information
     	</button>
