@@ -1,7 +1,7 @@
 import React from "react";
 import PR from './pictures/Patient Registration Information Form-1.pdf';
 import PS from './pictures/Patient Services Agreement.pdf';
-import RI from './pictures/Release of Information.pdf';
+import RI from './Release of Information.pdf';
 
 
 const Forms = () => {
