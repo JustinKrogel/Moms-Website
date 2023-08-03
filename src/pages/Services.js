@@ -20,7 +20,7 @@ return (
 			<li>Couples Counseling</li>
 			<li>Adults and Adolescents (11+)</li>
 			<li>Traditional weekly/bi-weekly counseling</li>
-			<li>Intensives</li>
+			<li>Intensives <a href = 'intensives'>(learn more)</a></li>
 			<li>Traumas (PTSD, Sexual abuse, Traumatic accidents, medical trauma, betrayal trauma, childhood trauma, military trauma, attachment/adoption trauma,  disturbing life events, etc.)</li>
 			<li>Depression, bipolar disorders, and poor self-concept</li>
 			<li>Anxiety, Social Phobias, OCD</li>
