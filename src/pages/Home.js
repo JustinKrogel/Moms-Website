@@ -35,9 +35,12 @@ return (
 
 			
 
-			<div style = {{flex:1, backgroundColor: '#fce4c9', height: 200}}>
-				<p>
-					
+			<div style = {{flex:1, backgroundColor: '#fce4c9', height: 200, fontFamily: 'Brush Script MT', fontSize: 40}}>
+				<p style = {{marginTop: 45}}>
+					EMDR Specialist
+				</p>
+				<p style = {{marginTop: -35}}>
+					Clinical Psychologist
 				</p>
 			</div>
 		</div>
