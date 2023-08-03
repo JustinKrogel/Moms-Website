@@ -25,7 +25,6 @@ return (
 			<li>Depression, bipolar disorders, and poor self-concept</li>
 			<li>Anxiety, Social Phobias, OCD</li>
 			<li>Compulsive behaviors including Eating Disorders, Self-harm/Cutting, and Sexual Addictions</li>
-			<li>Chronic Pain</li>
 		</ul>
 		<div style = {{flex: 1}} />
 	</div>
