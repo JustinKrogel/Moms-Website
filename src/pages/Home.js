@@ -2,6 +2,7 @@ import React from 'react';
 import office from './pictures/Office5.jpg';
 import logo from './pictures/logo.png';
 import portrait from './pictures/JA Headshot.jpg';
+import badge from './pictures/Badge.png';
 const Home = () => {
 return (
 	<div>
@@ -12,9 +13,11 @@ return (
 
 		<div style = {{flexDirection: 'horizontal', display: 'flex', textAlign: 'center'}}>
 			<div style = {{flex:1, backgroundColor: '#a97a5b', height: 200}} >
-				<p>
-				
-				</p>
+				<a href = 'https://credentials.emdria.org/a977b6df-061f-4072-a00a-738ff0b2adbd#gs.3elhb6' target = '_blank'>
+			
+				<img style = {{ display: 'block', marginLeft:'auto',marginRight:'auto', height: 190, marginTop: 5}} src = {badge} alt="Badge" />
+			
+				</a>
 			</div>
 
 			<div style = {{flex:1, backgroundColor: '#cc9767', textAlign: 'center', height: 200}}>
