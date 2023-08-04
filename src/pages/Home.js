@@ -51,6 +51,7 @@ return (
 				<h1>
 					Dr. JulieAnn Krogel
 				</h1>
+				<div style = {{fontSize: 'calc(1.2vw)'}}>
 				<p style = {{textAlign: 'Left', marginLeft: 80, marginRight: 80}}>
 				Are you ready to make a personal break through and move forward in your life? Do feel lost or stuck with your problems? Do you feel so overwhelmed and triggered sometimes that it is hard to do the things you know you should? We all get stuck sometimes and can benefit from expert professional help so we can heal from the negative experiences that hold us back and take charge of our lives.
 				</p>
@@ -60,6 +61,7 @@ I would like to introduce you to the powerful healing method of Eye Movement Des
 				<p style = {{textAlign: 'Left', marginLeft: 80, marginRight: 80}}>
 I am a specialist in EMDR Therapy with advanced training and years of clinical experience. I work with a wide range of mental health issues and have over 15 years of clinical experience. I would like to invite you to join me and learn to cope with the feelings that overwhelm you and get past the things that hold you back.
 				</p>
+				</div>
 			</div>
 		</div>
 	</div>
