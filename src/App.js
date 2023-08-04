@@ -7,7 +7,7 @@ import About from './pages/about';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Contact from './pages/contact';
-import Forms from './pages/Forms';
+import Intensives from './pages/Intensives';
 import EMDR from './pages/EMDR';
 import {FaPhoneAlt} from "react-icons/fa"
 import {FaEnvelope} from "react-icons/fa";
@@ -30,7 +30,7 @@ return (
 		<Route path='/about' element={<About/>} />
 		<Route path='/contact' element={<Contact/>} />
 		<Route path='/Services' element={<Services/>} />
-    <Route path='/Forms' element={<Forms/>} />
+    <Route path='/Intensives' element={<Intensives/>} />
     <Route path='/EMDR' element={<EMDR/>} />
 	</Routes>
   <div style = {{backgroundColor: "Gray", height: 120, marginTop: 100}}>
