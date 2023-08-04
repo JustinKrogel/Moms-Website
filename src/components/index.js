@@ -20,8 +20,8 @@ const Navbar = () => {
           <NavLink to="/EMDR" activeStyle>
             EMDR
           </NavLink>
-          <NavLink to="/Forms" activeStyle>
-            Forms
+          <NavLink to="/Intensives" activeStyle>
+            Intensives
           </NavLink>
           <NavLink to="/contact" activeStyle>
             Contact
